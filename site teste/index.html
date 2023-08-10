@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- Nav Menu -->
+
+    <header >
+        <nav>
+            <a class="logo" href="#"><img src="./img/Screenshot_20230713_112026_Chrome-removebg-preview.png" alt=""></a>
+            <ul class="navList">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="login.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--Carrosel -->
+    <section class="containerproje">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Iphone 14 Pro</h3>
+               <p>A da versão Pro tem 6,1 polegadas, resolução de 1179x2556 pixels e também é um pouco mais leve, com 206 gramas. Agora, a tela do Pro Max é maior e tem mais peso, com 6,7 polegadas, 1290x2796 pixels e 240 gramas!</p>
+               <a href="#" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>MecBoook</h3>
+               <p> são modelos de notebooks que entregam uma ficha técnica robusta e eficiente, além de uma ótima autonomia</p>
+               <a href="#" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Nossa nova geração</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos, qui obcaecati nulla 
+                aliquid non iure autem, esse aliquam itaque rerum nostrum 
+                repudiandae! At eligendi quas provident omnis voluptatem. Dignissimos..</p>
+               <a href="#" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> >  </div>
+    </section>
+
+
+
+    <!--Cards-->
+    <main>
+        <div class="banner" id="banner_one">
+            <h1>iPhone SE</h1>
+            <h2>Lots of love. Less to spend.</h2>
+            <p><a href="/">Learn more ></a></p>
+        </div>
+
+        <div class="banner" id="banner_two">
+            <h1>iPhone 11</h1>
+            <h2>Just the right amount of everything.</h2>
+            <p><a href="/">Learn more ></a></p>
+        </div>
+
+        <div class="banner" id="banner_three">
+            <h1>iPhone 11 Pro</h1>
+            <h2>Pro cameras. Pro display. Pro performance.</h2>
+            <p><a href="/">Learn more ></a></p>
+        </div>
+
+        <div class="category">
+            <div class="box" id="box1">
+                <h1>WWDC20</h1>
+                <h2>Take a look at all of the announcements.</h2> <br>
+                <p><a href="/">Watch the keynote on our US site ></a></p>
+            </div>
+            <div class="box" id="box2">
+                <h1>Watch</h1>
+                <p class="label">Series 5</p>
+                <h2>With the Always-On Retina Display.</h2>
+                <p><a href="/">Learn more ></a></p>
+            </div>
+        </div>
+        <div class="category">
+            <div class="box" id="box3">
+                <h1>MacBook Pro</h1>
+                <h2>Power. Moves.</h2> <br>
+                <p><a href="/">Learn more ></a></p>
+            </div>
+            <div class="box" id="box4">
+                <h1>iPad Pro</h1>
+                <h2>Your next computer is not a computer.</h2>
+                <p><a href="/">Learn more ></a></p>
+            </div>
+        </div>
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
